@@ -90,4 +90,4 @@ const shirts = [{
         "back": "shirt_images/default-m-back.png"
     }
 }];
-console.log(Array.isArray(shirts))
+export { shirts };

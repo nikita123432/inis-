@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+     
     const shirtsContainer = document.getElementById("shirts-container");
 
     if (!shirts || !Array.isArray(shirts)) {
