@@ -65,7 +65,7 @@ document.addEventListener('click', () => {
     }
 });
 
-document.addEventListener('keydown', e => {
+document.addEventListener('keydown',   e => {
     if (e.key === 'Escape' && draggingElement) {
         draggingElement.style.left = `${originalPosition.x}px`;
         draggingElement.style.top = `${originalPosition.y}px`;
